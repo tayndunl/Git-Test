@@ -9,8 +9,12 @@ int main(){
 
   BST tree;
 
-  tree.set("HELLO",4);
+  tree.set("the",5);
+  tree.set("best",2);
+  tree.set("of",4);
+  tree.set("times",7);
 
+  tree.print();
 
   return 0;
 

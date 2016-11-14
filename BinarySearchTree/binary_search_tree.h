@@ -30,6 +30,8 @@ class BST{
   void print_Helper(Node *current);
   void destructor_Helper(Node *current);
   void remove_Helper(Node *current, int value);
+  void min_Helper(Node *current);
+  void max_Helper();
 
  public:
   BST();
